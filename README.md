@@ -1,4 +1,4 @@
-# econome
+# econoMe
 
 A new Flutter project.
 
