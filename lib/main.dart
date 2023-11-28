@@ -1,8 +1,6 @@
 import 'dart:math';
 import 'package:flutter/cupertino.dart';
-
 import 'package:flutter/material.dart';
-import 'package:circular_menu/circular_menu.dart';
 
 void main() => runApp(const MyApp());
 

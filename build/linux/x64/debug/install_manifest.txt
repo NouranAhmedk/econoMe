@@ -1,0 +1,12 @@
+/run/media/broly/projects/gamepro/flutter/econoMe/build/linux/x64/debug/bundle/econome
+/run/media/broly/projects/gamepro/flutter/econoMe/build/linux/x64/debug/bundle/data/icudtl.dat
+/run/media/broly/projects/gamepro/flutter/econoMe/build/linux/x64/debug/bundle/lib/libflutter_linux_gtk.so
+/run/media/broly/projects/gamepro/flutter/econoMe/build/linux/x64/debug/bundle/data/flutter_assets/kernel_blob.bin
+/run/media/broly/projects/gamepro/flutter/econoMe/build/linux/x64/debug/bundle/data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
+/run/media/broly/projects/gamepro/flutter/econoMe/build/linux/x64/debug/bundle/data/flutter_assets/fonts/MaterialIcons-Regular.otf
+/run/media/broly/projects/gamepro/flutter/econoMe/build/linux/x64/debug/bundle/data/flutter_assets/shaders/ink_sparkle.frag
+/run/media/broly/projects/gamepro/flutter/econoMe/build/linux/x64/debug/bundle/data/flutter_assets/AssetManifest.json
+/run/media/broly/projects/gamepro/flutter/econoMe/build/linux/x64/debug/bundle/data/flutter_assets/AssetManifest.bin
+/run/media/broly/projects/gamepro/flutter/econoMe/build/linux/x64/debug/bundle/data/flutter_assets/FontManifest.json
+/run/media/broly/projects/gamepro/flutter/econoMe/build/linux/x64/debug/bundle/data/flutter_assets/NOTICES.Z
+/run/media/broly/projects/gamepro/flutter/econoMe/build/linux/x64/debug/bundle/data/flutter_assets/version.json
