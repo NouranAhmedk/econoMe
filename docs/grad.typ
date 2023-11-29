@@ -31,13 +31,13 @@ Money manager
     [*TODO!*],
   )
 }
-= Details
-#table(
-columns:3,
-rows:auto,
-[feature],[Parts],[Description],
-[],[Money in],
-)
+// = Details
+// #table(
+// columns:3,
+// rows:auto,
+// [feature],[Parts],[Description],
+// [],[Money in],
+// )
 
 = description
 + As a user i want to be able to fill my data and bank accounts.
@@ -108,3 +108,7 @@ This processed data forms the foundation for budgeting and expense tracking.
   + Explanation and Education:
   + The app provides explanations for each recommendation, helping users understand the pros and cons of each option.
   + Educational content may be included to empower users with financial knowledge.
+#pagebreak()
+= UMLs
+== ERD
+#image("database.png")

@@ -1,6 +1,6 @@
 # econoMe
 
-A new Flutter project.
+the amazing project
 
 ## Getting Started
 
