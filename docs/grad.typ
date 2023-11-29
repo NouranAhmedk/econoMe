@@ -1,25 +1,57 @@
 #set page(
   paper: "a4",
   margin: (x: 1cm,y:1cm),
-  numbering: "1",
-  columns: 1,
-  // fill: black,
 )
-#outline()
+#set text(
+  font: "New Computer Modern",
+  size: 10pt
+)
+#set par(
+  first-line-indent: 1em,
+  justify: true,
+)
+#align(horizon+center)[
+  #image("uni.png",width: 80%)
+]
+// #lorem(500)
+#align(center)[
+  #text(size: 40pt)[
+    econoMe\
+  ]
+  #text(size: 20pt)[
+    Faculty of Engineering (ECU)\
+    Software engineering
+  ]
+  #v(50pt)
+]
+#align(horizon+center)[
+  #text(size: 18pt)[
+    Baher Salama hussain\
+    Nouran Ahmed\
+    Hassan Amr\
+  ]
+  #v(20pt)
+]
+#align(center)[
+  #text(size: 20pt)[
+    under supervision\
+  ]
+  #text(size: 18pt)[
+    *Dr. Soha* 
+  ]
+]
+#pagebreak()
+
+
+
+#outline(title: "Table of content",indent: true)
+#pagebreak()
 // #set text(fill: white)
 #set par(justify: true)
+#set page(numbering: "1 / 1")
 #set heading(numbering: "1.")
-
-= Memebers
-#table(
-columns:(3),
-rows:auto,
-[],[Member],[ID],
-"1","Baher Salama","191900193",
-"2","Nouran Ahmed","191900018",
-"3","Hassan Amr","191900216",
-)
-= Idea
+#counter(page).update(1)
+= Abstract
 Money manager
 #let todo(fill: red) = {
   set text(white)
@@ -38,8 +70,11 @@ Money manager
 // [feature],[Parts],[Description],
 // [],[Money in],
 // )
-
-= description
+= Introduction
+= Lierature review
+= Techology
+= Conclusion
+= Referances
 + As a user i want to be able to fill my data and bank accounts.
 + As a user i want to be able to define my goals ex: buying a car.
 + As a user i want to be able to get insight on how to achive my goal.
