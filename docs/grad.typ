@@ -72,7 +72,7 @@
 = Acknowledgment
 #v(1cm)
 #h(1cm) We would like to express our deep gratitude to Dr. Soha Safwat for her patient guidance, enthusiastic encouragement,
-and useful critiques of this research work. We would also like to thank TA Ghada Adel  for
+and useful critiques of this research work. We would also like to thank Teacher A for
 her support throughout the project. We extend our sincere appreciation to our colleagues for working
 alongside us for the better part of a year, brainstorming ideas, and helping us to solve problems
 encountered during this project. We are also grateful to the Egyptian Chinese University for
