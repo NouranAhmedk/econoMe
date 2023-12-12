@@ -17,13 +17,14 @@
 // #lorem(500)
 #align(center)[
   #text(size: 40pt, weight: "black")[
-           \
-    Econome\
-           \
+    #v(0.5cm)
+    Econome
   ]
+    #v(0.5cm)
     #text(size: 25pt, weight: "bold")[
-    Graduation Project 2024\                       
-  ] #v(2pt)
+    Graduation Project 2024                       
+  ] 
+  #v(2pt)
   #text(size: 20pt)[
     Software Engineering Department\
   ]
@@ -31,10 +32,9 @@
 ]
 #align(horizon+center)[
     #text(size: 20pt , weight: "bold")[
-                \
     Project Team\
-                \
   ]
+  #v(.2cm)
   #text(size: 18pt)[
     Baher Salama  191900193\
     Nouran Ahmed  191900018\
@@ -44,19 +44,17 @@
 ]
 #align(center)[
     #text(size: 20pt , weight: "bold")[
-                     \
     Under Supervision\
-                     \
   ]
+  #v(.1cm)
   #text(size: 18pt)[
     Dr. Soha Safwat \
                     \
   ]
+  #v(1cm)
   #text(size: 15pt)[
-                     \
-    Egyptian Chinese University\
-                     \
-  ]#v(25pt)
+    Egyptian Chinese University
+  ]
 
 ]
 #pagebreak()
