@@ -49,7 +49,6 @@
   #v(.1cm)
   #text(size: 18pt)[
     Dr. Soha Safwat \
-                    \
   ]
   #v(1cm)
   #text(size: 15pt)[
