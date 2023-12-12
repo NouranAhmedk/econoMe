@@ -1,4 +1,4 @@
-# econoMe
+# econome
 
 ## Overview
 
