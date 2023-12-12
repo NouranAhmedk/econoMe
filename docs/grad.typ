@@ -35,7 +35,7 @@
     Project Team\
   ]
   #v(.2cm)
-  #text(size: 18pt)[
+  #text(size: 15pt)[
     Baher Salama  191900193\
     Nouran Ahmed  191900018\
     Hassan Amr    191900217\
