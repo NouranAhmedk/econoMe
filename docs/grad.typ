@@ -66,7 +66,9 @@
 #set heading(numbering: "1.")
 #counter(page).update(1)
 
-= Acknowledgment
+#text(size: 17pt , weight: "bold")[
+Acknowledgment
+]
 #v(0.5cm)
 #h(1cm) We would like to express our deep gratitude to Dr. Soha Safwat for her patient guidance, enthusiastic encouragement,
 and useful critiques of this research work. We would also like to thank Teacher A for
