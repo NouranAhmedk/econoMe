@@ -1,58 +1,93 @@
 #set page(
   paper: "a4",
-  margin: (x: 1cm,y:1cm),
+  margin: (x: 2.54cm,y:2.54cm),
 )
 #set text(
   font: "New Computer Modern",
-  size: 10pt
+  // font:"Times New Roman",
+  size: 12pt
 )
 #set par(
   first-line-indent: 1em,
   justify: true,
 )
 #align(horizon+center)[
-  #image("uni.png",width: 80%)
+  #image("uni.png",width: 75%)
 ]
 // #lorem(500)
 #align(center)[
-  #text(size: 40pt)[
-    econoMe\
+  #text(size: 40pt, weight: "black")[
+           \
+    Econome\
+           \
   ]
+    #text(size: 25pt, weight: "bold")[
+    Graduation Project 2024\                       
+  ] #v(2pt)
   #text(size: 20pt)[
-    Faculty of Engineering (ECU)\
-    Software engineering
+    Software Engineering Department\
   ]
-  #v(50pt)
+  #v(45pt)
 ]
 #align(horizon+center)[
-  #text(size: 18pt)[
-    Baher Salama hussain\
-    Nouran Ahmed\
-    Hassan Amr\
+    #text(size: 20pt , weight: "bold")[
+                \
+    Project Team\
+                \
   ]
-  #v(20pt)
+  #text(size: 18pt)[
+    Baher Salama  191900193\
+    Nouran Ahmed  191900018\
+    Hassan Amr    191900217\
+  ]
+  #v(35pt)
 ]
 #align(center)[
-  #text(size: 20pt)[
-    under supervision\
+    #text(size: 20pt , weight: "bold")[
+                     \
+    Under Supervision\
+                     \
   ]
   #text(size: 18pt)[
-    *Dr. Soha* 
+    Dr. Soha Safwat \
+                    \
   ]
+  #text(size: 15pt)[
+                     \
+    Egyptian Chinese University\
+                     \
+  ]#v(25pt)
+
 ]
 #pagebreak()
 
 
-
-#outline(title: "Table of content",indent: true)
-#pagebreak()
+// #outline(title: "Table of content",indent: true)
 // #set text(fill: white)
 #set par(justify: true)
 #set page(numbering: "1 / 1")
 #set heading(numbering: "1.")
 #counter(page).update(1)
+
+= Acknowledgment
+#v(1cm)
+#h(1cm) We would like to express our deep gratitude to Dr. Soha Safwat for her patient guidance, enthusiastic encouragement,
+and useful critiques of this research work. We would also like to thank TA Ghada Adel  for
+her support throughout the project. We extend our sincere appreciation to our colleagues for working
+alongside us for the better part of a year, brainstorming ideas, and helping us to solve problems
+encountered during this project. We are also grateful to the Egyptian Chinese University for
+providing the opportunity and resources necessary to carry out this work successfully. Finally, we
+would like to thank our parents for their unwavering support and encouragement of our education.
+Their hard work and patience have been instrumental in helping us to reach where we are today.
+#pagebreak()
+
+#outline(title: "Table of content",indent: true)
+#pagebreak()
 = Abstract
-Money manager
+\
+#h(1cm) In today's rapidly evolving economic climate, possessing a robust Money Management System (MMS) is critical to ensuring financial stability and fostering economic empowerment. This abstract outlines an MMS created to aid individuals, businesses, and communities in managing their finances. Our Money Management System offers a comprehensive and user-friendly interface that integrates cutting-edge financial tools to facilitate informed decision-making. It encompasses fundamental aspects of economic empowerment like budgeting, expense tracking, investment planning, and financial education.
+#pagebreak()
+
 #let todo(fill: red) = {
   set text(white)
   set align(center)
@@ -71,9 +106,13 @@ Money manager
 // [],[Money in],
 // )
 = Introduction
+#pagebreak()
 = Lierature review
+#pagebreak()
 = Techology
+#pagebreak()
 = Conclusion
+#pagebreak()
 = Referances
 + As a user i want to be able to fill my data and bank accounts.
 + As a user i want to be able to define my goals ex: buying a car.
@@ -81,6 +120,7 @@ Money manager
 + As a user i want to be able to automate recurring payments ex: rent.
 + As a user i want to be able to view analytics.
 + As a user i want to be able to split spending into catogories for easier managment 
+#pagebreak()
 
 = work flow
 == Financial Management App Workflow
