@@ -67,7 +67,7 @@
 #counter(page).update(1)
 
 = Acknowledgment
-#v(1cm)
+#v(0.5cm)
 #h(1cm) We would like to express our deep gratitude to Dr. Soha Safwat for her patient guidance, enthusiastic encouragement,
 and useful critiques of this research work. We would also like to thank Teacher A for
 her support throughout the project. We extend our sincere appreciation to our colleagues for working
@@ -81,7 +81,7 @@ Their hard work and patience have been instrumental in helping us to reach where
 #outline(title: "Table of content",indent: true)
 #pagebreak()
 = Abstract
-\
+#v(0.5cm)
 #h(1cm) In today's rapidly evolving economic climate, possessing a robust Money Management System (MMS) is critical to ensuring financial stability and fostering economic empowerment. This abstract outlines an MMS created to aid individuals, businesses, and communities in managing their finances. Our Money Management System offers a comprehensive and user-friendly interface that integrates cutting-edge financial tools to facilitate informed decision-making. It encompasses fundamental aspects of economic empowerment like budgeting, expense tracking, investment planning, and financial education.
 #pagebreak()
 
