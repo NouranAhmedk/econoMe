@@ -113,7 +113,7 @@ Abstract
 #set page(numbering: "1 / 1")
 
 
-= Table of figures
+= List of figures
 #pagebreak()
 
 #align(center)[
