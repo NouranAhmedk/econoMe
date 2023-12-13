@@ -7,10 +7,7 @@
   // font:"Times New Roman",
   size: 12pt
 )
-#set par(
-  first-line-indent: 1em,
-  justify: true,
-)
+#counter(page).update(1)
 #align(horizon+center)[
   #image("uni.png",width: 75%)
 ]
@@ -62,9 +59,15 @@
 // #outline(title: "Table of content",indent: true)
 // #set text(fill: white)
 #set par(justify: true)
-#set page(numbering: "1 / 1")
 #set heading(numbering: "1.")
-#counter(page).update(1)
+
+
+
+#set par(
+  first-line-indent: 1em,
+  justify: true,
+  leading: 0.5cm
+)
 
 #text(size: 17pt , weight: "bold")[
 Acknowledgment
@@ -80,23 +83,26 @@ would like to thank our parents for their unwavering support and encouragement o
 Their hard work and patience have been instrumental in helping us to reach where we are today.
 #pagebreak()
 
-#outline(title: "Table of content",indent: true)
-#pagebreak()
-= Abstract
+#text(size: 17pt , weight: "bold")[
+Abstract
+]
 #v(0.5cm)
 #h(1cm) In today's rapidly evolving economic climate, possessing a robust Money Management System (MMS) is critical to ensuring financial stability and fostering economic empowerment. This abstract outlines an MMS created to aid individuals, businesses, and communities in managing their finances. Our Money Management System offers a comprehensive and user-friendly interface that integrates cutting-edge financial tools to facilitate informed decision-making. It encompasses fundamental aspects of economic empowerment like budgeting, expense tracking, investment planning, and financial education.
 #pagebreak()
 
-#let todo(fill: red) = {
-  set text(white)
-  set align(center)
-  rect(
-    fill: fill,
-    inset: 8pt,
-    radius: 4pt,
-    [*TODO!*],
-  )
-}
+
+#outline(title: "Table of content",indent: true)
+#pagebreak()
+// #let todo(fill: red) = {
+//   set text(white)
+//   set align(center)
+//   rect(
+//     fill: fill,
+//     inset: 8pt,
+//     radius: 4pt,
+//     [*TODO!*],
+//   )
+// }
 // = Details
 // #table(
 // columns:3,
@@ -104,25 +110,55 @@ Their hard work and patience have been instrumental in helping us to reach where
 // [feature],[Parts],[Description],
 // [],[Money in],
 // )
-= Introduction
-#pagebreak()
-= Lierature review
-#pagebreak()
-= Techology
-#pagebreak()
-= Conclusion
-#pagebreak()
-= Referances
-+ As a user i want to be able to fill my data and bank accounts.
-+ As a user i want to be able to define my goals ex: buying a car.
-+ As a user i want to be able to get insight on how to achive my goal.
-+ As a user i want to be able to automate recurring payments ex: rent.
-+ As a user i want to be able to view analytics.
-+ As a user i want to be able to split spending into catogories for easier managment 
+#set page(numbering: "1 / 1")
+
+
+= Table of figures
 #pagebreak()
 
-= work flow
-== Financial Management App Workflow
+#align(center)[
+    #text(size: 20pt , weight: "bold")[
+    = Chapter 1
+      
+  ]
+]
+== Introduction
+=== Motivation
+=== Problem Definition
+=== Objective
+=== Document Organization
+// === Related Work
+// === Assumptions and Limitations 
+// === Significance of the Project 
+#pagebreak()
+
+#align(center)[
+    #text(size: 20pt , weight: "bold")[
+    = Chapter 2
+      
+  ]
+]
+== Background
+=== Description of field of the project
+=== Related Work Done In The Field
+=== Description Of Existance Similar Apps
+=== Survey
+=== Project Description 
+#pagebreak()
+
+#align(center)[
+    #text(size: 20pt , weight: "bold")[
+    = Chapter 3
+      
+  ]
+]
+== Introduction
+=== System Overview 
+=== Intended Users
+=== User Characteristics 
+== System Architechture 
+== System Diagrams  
+=== Financial Management App Workflow
 + User Data Collection:
   + Users provide personal and financial information, including income, expenses, assets, liabilities, and financial goals.
 Specify risk tolerance and investment preferences.
@@ -183,6 +219,26 @@ This processed data forms the foundation for budgeting and expense tracking.
   + The app provides explanations for each recommendation, helping users understand the pros and cons of each option.
   + Educational content may be included to empower users with financial knowledge.
 #pagebreak()
-= UMLs
-== ERD
+=== UMLs
+=== ERD
+
+#pagebreak()
+
+= Lierature review
+#pagebreak()
+= Techology
+#pagebreak()
+= Conclusion
+#pagebreak()
+= Referances
++ As a user i want to be able to fill my data and bank accounts.
++ As a user i want to be able to define my goals ex: buying a car.
++ As a user i want to be able to get insight on how to achive my goal.
++ As a user i want to be able to automate recurring payments ex: rent.
++ As a user i want to be able to view analytics.
++ As a user i want to be able to split spending into catogories for easier managment 
+#pagebreak()
+
+= work flow
+
 #image("database.png")
