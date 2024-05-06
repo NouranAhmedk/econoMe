@@ -1,0 +1,1 @@
+ /run/media/broly/projects/econoMe/.dart_tool/flutter_build/ee6ad33bfd85f75dd0cbc3116c0c9437/native_assets.yaml: 

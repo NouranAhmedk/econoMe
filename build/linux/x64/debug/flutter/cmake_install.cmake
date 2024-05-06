@@ -1,8 +1,8 @@
-# Install script for directory: /run/media/broly/projects/gamepro/flutter/econoMe/linux/flutter
+# Install script for directory: /run/media/broly/projects/econoMe/linux/flutter
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/run/media/broly/projects/gamepro/flutter/econoMe/build/linux/x64/debug/bundle")
+  set(CMAKE_INSTALL_PREFIX "/run/media/broly/projects/econoMe/build/linux/x64/debug/bundle")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,6 +39,6 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/nix/store/n37gxbg343hxin3wdryx092mz2dkafy8-clang-wrapper-16.0.6/bin/objdump")
+  set(CMAKE_OBJDUMP "/usr/bin/llvm-objdump")
 endif()
 
